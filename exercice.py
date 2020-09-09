@@ -17,7 +17,8 @@ if __name__ == '__main__':
         'oiseau',
         'bonjour',
         'églantier',
-        'arbre'
+        'arbre' ,
+        'ça'
         
     ]
     for i in range(len(mots)):
