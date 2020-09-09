@@ -18,8 +18,11 @@ if __name__ == '__main__':
         'bonjour',
         'églantier',
         'arbre'
+        
     ]
     for i in range(len(mots)):
         mots[i] = majuscule(mots[i])
 
     print(mots)
+
+    print(majuscule('eliott'))
