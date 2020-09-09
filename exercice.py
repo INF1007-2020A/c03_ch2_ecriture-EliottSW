@@ -4,9 +4,9 @@ def majuscule(mot):
     resultat = ''
     for lettre in mot:
         # TODO completer la fonction ici
-        ord(lettre) + 32
+        lettre = chr(ord(lettre) - 32)
         resultat += lettre
-    return mot
+    return resultat
 
 
 if __name__ == '__main__':
